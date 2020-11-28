@@ -1,12 +1,11 @@
 body {
-    background: lightgray
+    background: lightgray;
 }
 
 h2 {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
-    text-transform: uppercase;
     color: #4F4F4F;
 }
 .name, .job, .email, .description, .phone {
@@ -46,11 +45,33 @@ h2 {
 li {
     list-style: none;
 }
-.skill__paragraph {
+.skill__paragraph,
+.project-list, .project-paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #4F4F4F;
 }
+.front-end {
+    text-transform: uppercase;
+}
+.project-list {
+    margin: 0.5rem;
+    word-break: break-all;
+}
+.my-gallery {
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    gap: 1rem;
+}
+
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

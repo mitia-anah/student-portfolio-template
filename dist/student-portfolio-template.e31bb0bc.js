@@ -32130,7 +32130,122 @@ function PersonalDetails() {
 
 var _default = PersonalDetails;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","../assets/Rosny.jpg":"assets/Rosny.jpg"}],"component/Skill.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","../assets/Rosny.jpg":"assets/Rosny.jpg"}],"assets/Interior-ds.png":[function(require,module,exports) {
+module.exports = "/Interior-ds.5c27f060.png";
+},{}],"component/Project.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _InteriorDs = _interopRequireDefault(require("../assets/Interior-ds.png"));
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\nborder: 1px solid #5C94E1;\nbox-sizing: border-box;\npadding: 1rem;\nborder-radius: 12px;\nwidth: 100px;\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral(["\nbackground: #5C94E1;\nborder-radius: 12px;\npadding: 1rem;\ncolor: #ffffff;\nwidth: 100px;\nborder-style: none\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n    max-width: 100%;\n    min-width: 100%;\n    border-radius: 12px;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-direction: row;\npadding-inline-start: 0;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\npadding: 1rem;\nmargin: 1rem;\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\nmax-width: 80%;\nbackground: #ffffff;\nmargin: auto;\nborder-radius: 12px\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var ProjectContent = _styledComponents.default.div(_templateObject());
+
+var ContextWrapper = _styledComponents.default.div(_templateObject2());
+
+var Ul = _styledComponents.default.ul(_templateObject3());
+
+var Image = _styledComponents.default.img(_templateObject4());
+
+var DemoButton = _styledComponents.default.button(_templateObject5());
+
+var CodeButton = _styledComponents.default.button(_templateObject6());
+
+function Project() {
+  return /*#__PURE__*/_react.default.createElement(ProjectContent, null, /*#__PURE__*/_react.default.createElement(ContextWrapper, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("picture", null, /*#__PURE__*/_react.default.createElement(Image, {
+    src: _InteriorDs.default,
+    width: "500px"
+  })), /*#__PURE__*/_react.default.createElement(Ul, null, /*#__PURE__*/_react.default.createElement("li", {
+    className: "project-list"
+  }, "# html"), /*#__PURE__*/_react.default.createElement("li", {
+    className: "project-list"
+  }, "# css"), /*#__PURE__*/_react.default.createElement("li", {
+    className: "project-list"
+  }, "# Responsive"))), /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "my-gallery"
+  }, "My Gallery"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "project-paragraph"
+  }, "In this project, I work with HTML and CSS to create a responsive page. This page is similiar with instagram profile page. The design is from devchallenge.io"), /*#__PURE__*/_react.default.createElement("ul", {
+    className: "buttons"
+  }, /*#__PURE__*/_react.default.createElement(DemoButton, null, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://interior-consultant-rosny.netlify.app/"
+  }, "Demo")), /*#__PURE__*/_react.default.createElement(CodeButton, null, "Code")))));
+}
+
+var _default = Project;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../assets/Interior-ds.png":"assets/Interior-ds.png","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js"}],"component/Skill.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -32165,7 +32280,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\ndisplay: flex;\n    flex-direction: row;\n    align-items: center;\n    flex-wrap: wrap\n"]);
+  var data = _taggedTemplateLiteral(["\ndisplay: flex;\nflex-direction: row;\nalign-items: center;\nflex-wrap: wrap;\ngap: 2rem;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -32209,7 +32324,9 @@ var Progress = _styledComponents.default.progress(_templateObject5());
 function Skill() {
   return /*#__PURE__*/_react.default.createElement(SkillContent, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "skill-content"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, "Front End"), /*#__PURE__*/_react.default.createElement(ListWrapp, null, /*#__PURE__*/_react.default.createElement(List, null, /*#__PURE__*/_react.default.createElement(Paragraph, {
+  }, /*#__PURE__*/_react.default.createElement("h2", {
+    className: "front-end"
+  }, "Front End"), /*#__PURE__*/_react.default.createElement(ListWrapp, null, /*#__PURE__*/_react.default.createElement(List, null, /*#__PURE__*/_react.default.createElement(Paragraph, {
     className: "skill__paragraph"
   }, "React"), /*#__PURE__*/_react.default.createElement(Progress, {
     max: "100",
@@ -32258,6 +32375,8 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _PersonalDetails = _interopRequireDefault(require("./component/PersonalDetails"));
 
+var _Project = _interopRequireDefault(require("./component/Project"));
+
 var _Skill = _interopRequireDefault(require("./component/Skill"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -32277,12 +32396,20 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 var Wrapper = _styledComponents.default.div(_templateObject());
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement(Wrapper, null, /*#__PURE__*/_react.default.createElement(_PersonalDetails.default, null), /*#__PURE__*/_react.default.createElement(_Skill.default, null));
+  return /*#__PURE__*/_react.default.createElement(Wrapper, {
+    className: "wrapper"
+  }, /*#__PURE__*/_react.default.createElement(_PersonalDetails.default, {
+    className: "personalDetails"
+  }), /*#__PURE__*/_react.default.createElement(_Project.default, {
+    className: "project"
+  }), /*#__PURE__*/_react.default.createElement(_Skill.default, {
+    className: "skill"
+  }));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","./component/PersonalDetails":"component/PersonalDetails.js","./component/Skill":"component/Skill.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","./component/PersonalDetails":"component/PersonalDetails.js","./component/Project":"component/Project.js","./component/Skill":"component/Skill.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -32322,7 +32449,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50918" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58922" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

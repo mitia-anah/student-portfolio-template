@@ -5,9 +5,9 @@ Challenge: Create all the elements in the given designs and then create a portfo
 ![image](./assets/portfolio.png)
 This image is just a preview, the full design is on the figma file!
 
--   User story: I can see personal details
--   User story: I can see skills
--   User story: I can see projects
+-   User story: I can see personal details OK
+-   User story: I can see skills OK
+-   User story: I can see projects  Ok
 -   User story: I can filter projects by tag
 -   User story: I can see hobbies or certificates
 -   User story (optional): I can see experiences

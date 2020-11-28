@@ -12,9 +12,10 @@ padding-inline-start: 0;
 `;
 const List = styled.li`
 display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+gap: 2rem;
 `;
 const Paragraph = styled.p`
 flex-basis: 20%
@@ -26,7 +27,7 @@ function Skill() {
     return (
         <SkillContent>
             <div className="skill-content">
-                <h2>Front End</h2>
+                <h2 className='front-end'>Front End</h2>
                 <ListWrapp>
                     <List>
                         <Paragraph className='skill__paragraph'>React</Paragraph>

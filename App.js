@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import PersonalDetails from './component/PersonalDetails'
+import Project from './component/Project'
 import Skill from './component/Skill'
+
 
 const Wrapper = styled.div`
 
@@ -9,9 +11,10 @@ const Wrapper = styled.div`
 
 function App() {
     return (
-        <Wrapper>
-            <PersonalDetails />
-            <Skill />
+        <Wrapper className="wrapper">
+            <PersonalDetails className='personalDetails' />
+            <Project className="project" />
+            <Skill className='skill' />
         </Wrapper>
     )
 }
