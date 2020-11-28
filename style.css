@@ -1,0 +1,54 @@
+body {
+    background: lightgray
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+.name, .job, .email, .description, .phone {
+    word-break: break-all;
+}
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4F4F4F;
+    margin: 0;
+}
+
+.job, .phone, .description, .email {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+    color: #828282;
+}
+.email,
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    line-height: 30px;
+}
+.contact, .description {
+ padding-top: 0.5rem;
+ margin-top: 1rem ;
+}
+
+.skill-content {
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+.skill__paragraph {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
